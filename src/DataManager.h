@@ -571,7 +571,7 @@ public:
 
         file.close();
 
-        cout << "\nData berhasil disimpan ke file.\n";
+        cout << "\nData berhasil disimpan ke file mahasiswa.txt (file master)\n";
     }
 
     void muatFile()
