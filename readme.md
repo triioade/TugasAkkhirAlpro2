@@ -1,12 +1,34 @@
 # SISTEM MANAJEMEN DATA MAHASISWA (C++)
 
 ## Cara Menjalankan Program
-### Persyaratan
+
+### Langkah Menjalankan Opsi 1
+* Clone Repository Menggunakan Git
+
+1. Buka Terminal atau Command Prompt:
+2. git clone https://github.com/triioade/TugasAkkhirAlpro2.git
+3. Masuk ke folder project:
+4. cd TugasAkkhirAlpro2
+5. Jalankan program:
+6. main.exe
+
+*Compile Ulang Source Code
+Jika file executable tidak tersedia atau ingin melakukan perubahan source code:
+
+1. Masuk ke folder project:
+2. cd TugasAkkhirAlpro2
+3. Compile menggunakan g++:
+4. g++ main.cpp -o main
+5. Jalankan program:
+6. Windows/terminal:
+7. main.exe atau .\main.exe
+
+
+### Langkah Menjalankan Opsi 2
+#### Persyaratan
 
 * Sistem Operasi Windows
-* File project sudah diekstrak (Extract ZIP)
-
-### Langkah Menjalankan
+* File project sudah didownload https://drive.google.com/drive/folders/1OoMJxgH3BnAzN0x2VG0iO59yBXjlCKKp
 
 1. Ekstrak file ZIP project ke folder yang diinginkan.
 2. Buka folder hasil ekstraksi.
