@@ -274,7 +274,7 @@ int main()
                 case 1:
                 {
                     string nim;
-                    cout << "Masukkan NIM : (contoh : 241011450004) ";
+                    cout << "Masukkan NIM (contoh:241011450004) : ";
                     getline(cin, nim);
 
                     SearchSort::bubbleSortNIM(
@@ -301,7 +301,7 @@ int main()
                 case 2:
                 {
                     string nama;
-                    cout << "Masukkan Nama : (contoh : Trio) ";
+                    cout << "Masukkan Nama (contoh :trio) : ";
                     getline(cin, nama);
 
                     vector<Mahasiswa *> hasil =
