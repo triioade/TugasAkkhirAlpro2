@@ -46,16 +46,16 @@ void menuTampilkan()
 void menuCari()
 {
     cout << "\n===== CARI DATA =====\n";
-    cout << "1. Cari NIM (Binary Search)\n";
-    cout << "2. Cari Nama (Linear Search)\n";
+    cout << "1. Cari By NIM (Binary Search)\n";
+    cout << "2. Cari By Nama (Linear Search)\n";
     cout << "0. Kembali\n";
 }
 
 void menuUrutkan()
 {
     cout << "\n===== URUTKAN DATA =====\n";
-    cout << "1. Urutkan NIM (Bubble Sort)\n";
-    cout << "2. Urutkan Nama (Merge Sort)\n";
+    cout << "1. Urutkan By NIM (Bubble Sort)\n";
+    cout << "2. Urutkan By Nama (Merge Sort)\n";
     cout << "0. Kembali\n";
 }
 
@@ -274,7 +274,7 @@ int main()
                 case 1:
                 {
                     string nim;
-                    cout << "Masukkan NIM : ";
+                    cout << "Masukkan NIM : (contoh : 241011450004) ";
                     getline(cin, nim);
 
                     SearchSort::bubbleSortNIM(
@@ -301,7 +301,7 @@ int main()
                 case 2:
                 {
                     string nama;
-                    cout << "Masukkan Nama : ";
+                    cout << "Masukkan Nama : (contoh : Trio) ";
                     getline(cin, nama);
 
                     vector<Mahasiswa *> hasil =
